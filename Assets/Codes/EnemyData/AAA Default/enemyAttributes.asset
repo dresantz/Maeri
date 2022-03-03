@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19d0b40a36f32546866c4455e80586c, type: 3}
+  m_Name: enemyAttributes
+  m_EditorClassIdentifier: 
+  animController: {fileID: 9100000, guid: 6087e184342aaf0469f6b944779858db, type: 2}
+  name: Default
+  forca: 3
+  vigor: 3
+  destreza: 3
+  assimilacao: 3
+  influencia: 3
+  sabedoria: 3
+  vitalidade: 0
+  controle: 0

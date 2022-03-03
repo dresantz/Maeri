@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7d85e647cd828c469b699ae881e23e9, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Voc\xEA tem uma miss\xE3o. Encontre, sim, encontre a chave. A chave secreta!!!
+    Do outro lado da porta est\xE1 o tesouro. A espada suprema. Pegue-a!!!"
+  - "Acha que \xE9 capaz de encontrar a chave secreta? Aposto que n\xE3o. Ou ser\xE1
+    que sim?"
+  responses:
+  - responseText: Sim
+    dialogueObject: {fileID: 11400000, guid: a31f8aa8c0ba65a44aba2725ed59b852, type: 2}
+  - responseText: "N\xE3o"
+    dialogueObject: {fileID: 11400000, guid: 6921a1c5d02d0cc43b67c3f4be79e9b0, type: 2}
